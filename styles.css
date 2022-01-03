@@ -1,7 +1,12 @@
-.container{
-    background color: white;
+.heading{
+image-orientation: var(.heading);
 }
-.container{
-    background-position: center;
-    image-orientation: var(.container);
+
+p{
+    text-align: center;
+    text-size-adjust:10%;
+}
+#head1{
+    text-align: center;
+    size: 300px;
 }
