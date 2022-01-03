@@ -54,10 +54,15 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .work {
+  .work{
     position: relative;
     width: 366px;
     height: 300px;
     box-sizing: border-box;
     margin: 10px;
+  }
+  #form{
+      text-align: center;
+      align-content: center;
+      padding-bottom: 30px;
   }
