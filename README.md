@@ -12,6 +12,7 @@ Contact Info
 +254705888095
 
 #TECHNOLOGIES USED
+
 HTML
 CSS
 JavaScript
