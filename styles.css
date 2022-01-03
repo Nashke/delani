@@ -21,6 +21,10 @@
     text-align: center;
     padding-bottom: 50px;
 }
-img{
-    padding-left: 30px;
+#services{
+    background-image: url(assets/backgrounds/s_image.jpg);
+    text-align: center;
+    padding-top: 1em;
+    color: thistle;
+    padding-bottom: 30px;
 }
