@@ -1,12 +1,26 @@
-.heading{
-image-orientation: var(.heading);
+#heading {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-p{
+#welcome{
     text-align: center;
-    text-size-adjust:10%;
+    padding-bottom: 50px;
+    text-size-adjust: 500;
+    padding bottom: 50px;;
+    padding-left: 50px;
+    position: relative;
 }
-#head1{
+
+#p1{
     text-align: center;
-    size: 300px;
+    padding-bottom: 50px;
+}
+img{
+    padding-left: 30px;
 }
