@@ -2,8 +2,10 @@
 
 Made by Nahashon Kamau
 
+
 #Description
-. The project is to test skills on the use of jquery and javascript.
+
+The project is to test skills on the use of jquery and javascript.
 
 #Setup/Installation Requirements
 
@@ -18,6 +20,9 @@ CSS
 JavaScript
 Jquery
 Bootstrap
-LICENSE INFO
+
+#LICENSE INFO
+
 MIT License
-Copyright (c) {2022} {Nahashon Kamau
+
+#Copyright (c) {2022} {Nahashon Kamau
