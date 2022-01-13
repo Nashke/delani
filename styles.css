@@ -1,4 +1,10 @@
-#heading {
+body{
+    align-content: center;
+    background-repeat: no-repeat;
+    color:black;
+    content: normal;
+}
+.container {
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-color: #cccccc;
     height: 100vh;
@@ -7,19 +13,29 @@
     background-size: cover;
     position: relative;
 }
-
+.mouse{
+    position: relative;
+    align-content: center;
+    align-self: stretch;
+}
+.logo{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
 #welcome{
     text-align: center;
     padding-bottom: 50px;
-    text-size-adjust: 500;
-    padding bottom: 50px;;
+    text-size-adjust: 500; 
     padding-left: 50px;
     position: relative;
 }
 
 #p1{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    align-content: center;
 }
 #services{
     background-image: url(assets/backgrounds/s_image.jpg);
@@ -28,11 +44,6 @@
     color: thistle;
     padding-bottom: 30px;
 }
-#footer {
-    text-align: center;
-    margin-left: 700px;
-    margin-top: 20px;
-  }
   #aboutus{
       text-align: center;
   }
@@ -60,6 +71,13 @@
     height: 300px;
     box-sizing: border-box;
     margin: 10px;
+  }
+
+  .footer {
+    object-position: center;
+    float: none;
+    display: block;
+    margin: auto;
   }
   #form{
       text-align: center;
