@@ -4,7 +4,7 @@
 Website on Delani studio
 
 ### Setup/Installation Requirements
-* Live - https://nashke.github.io/pizza/
+* Live - hhttps://nashke.github.io/delani/
 ### Dependencies
 * Internet connection so as to display bootstrap css.
 ### Contact Info
