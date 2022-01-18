@@ -1,27 +1,34 @@
-$ (document).ready(function() {
-    $(".icon").each(function () {
-        console.log("In Icon");
-        $(this).click(function () {
-            console.log("Clicked Image DIV");
-            $(this).find("div.w-image").addClass("front");
-            $(this).find("div.w-text").removeClass("back");
-            $(this).find("div.w-text").addClass("back-flip");
-        });
-        $(this).mouseleave(function () {
-            $(this).find("div.w-image").removeClass("front");
-            $(this).find("div.w-text").addClass("back");
-        })
-    });
-
-    $(".item").each(function () {
-        $(this).hover(function(){
-            $(this).find("div.image").animate({
-                height: 'toggle'
-            });
-            $(this).find("div.text").removeClass("text-hide");
-        });
-        $(this).mouseleave(function () {
-            $(this).find("div.text").addClass("text-hide");
-        });
+$(document).ready(function(){
+    $(".design1").click(function(event){
+        $(".design").toggle();
     });
 });
+
+$(document).ready(function(){
+    $(".development1").click(function(event){
+        $(".development").toggle();
+    });
+});
+$(document).ready(function(){
+    $(".product1").click(function(event){
+        $(".product").toggle();
+    });
+});
+  
+  $(document).ready(function(){
+    $("form#fill").submit(function(event){
+      event.preventDefault();
+      var name = $("input#MERGE1").val();
+      var email = $("input#MERGE0").val();
+      var message = $("textarea#comment").val();
+      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  
+  });
+  

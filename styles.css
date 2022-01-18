@@ -38,3 +38,58 @@
     background-repeat: no-repeat;
     color: wheat;
 }
+.inputform{
+    color: white;
+}
+input{
+    background: transparent;
+
+}
+button{
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+#product{
+    display: none;
+
+}
+#development{
+    display: none;
+    
+}
+.design{
+    display: none;
+    
+}
+.col-md-3 img{
+    width: 250px;
+    margin: 30px;
+}
+.headings{
+    text-align: center;
+    font-size: 500;
+
+}
+footer{
+    text-align: center;
+    padding-top: 25px;
+}
+#portfolio{
+    margin-left: 60px;
+
+}
+.port{
+    text-align: center;
+    align-items: center;
+}
+.inputform{
+    color: black;
+    background: transparent;
+}
+textarea{
+    background: transparent;
+}
+input{
+    background: transparent;
+}
