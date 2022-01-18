@@ -5,7 +5,7 @@ body{
     content: normal;
 }
 .container {
-    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-image: url("assets/backgrounds/h_img.jpg");
     background-color: #cccccc;
     height: 100vh;
     background-position: center;
@@ -14,15 +14,18 @@ body{
     position: relative;
 }
 .mouse{
-    position: relative;
     align-content: center;
-    align-self: stretch;
+    align-items: center;
+    margin-bottom: 1em;
+    padding-right: 1000em;
 }
 .logo{
     align-items: center;
     align-content: center;
     text-align: center;
-    
+    margin-bottom: 1em;
+
+
 }
 #welcome{
     text-align: center;
@@ -83,4 +86,7 @@ body{
       text-align: center;
       align-content: center;
       padding-bottom: 30px;
+  }
+  img{
+      align-items: center;
   }
