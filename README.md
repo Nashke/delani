@@ -1,28 +1,21 @@
-# delani studio
+# Delani Studio
+#### Created by Nahashon Kamau
+#### Description
+Website on Delani studio
 
-Made by Nahashon Kamau
-
-
-#Description
-
-The project is to test skills on the use of jquery and javascript.
-
-#Setup/Installation Requirements
-
-Contact Info
-
-+254705888095
-
-#TECHNOLOGIES USED
-
-HTML
-CSS
-JavaScript
-Jquery
-Bootstrap
-
-#LICENSE INFO
-
-MIT License
-
-#Copyright (c) {2022} {Nahashon Kamau
+### Setup/Installation Requirements
+* Live - https://nashke.github.io/pizza/
+### Dependencies
+* Internet connection so as to display bootstrap css.
+### Contact Info
+* email nahashon64@gmail.com
+* +254705888095
+### TECHNOLOGIES USED
+* HTML
+* CSS
+* JavaScript
+* Jquery
+* Bootstrap
+### LICENSE INFO
+* MIT License
+* Copyright (c) {2021} **{Nashke}**
