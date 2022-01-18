@@ -1,92 +1,10 @@
-body{
-    align-content: center;
-    background-repeat: no-repeat;
-    color:black;
-    content: normal;
-}
-.container {
-    background-image: url("assets/backgrounds/h_img.jpg");
-    background-color: #cccccc;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+.landing{
+    background-image: url(assets/backgrounds/h_img.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-.mouse{
-    align-content: center;
-    align-items: center;
-    margin-bottom: 1em;
-    padding-right: 1000em;
-}
-.logo{
-    align-items: center;
-    align-content: center;
+    background-repeat:no-repeat;
     text-align: center;
-    margin-bottom: 1em;
-
-
-}
-#welcome{
-    text-align: center;
-    padding-bottom: 50px;
-    text-size-adjust: 500; 
-    padding-left: 50px;
-    position: relative;
+    font-family:garamond;
 }
 
-#p1{
-    text-align: center;
-    padding-bottom: 70px;
-    align-content: center;
-}
-#services{
-    background-image: url(assets/backgrounds/s_image.jpg);
-    text-align: center;
-    padding-top: 1em;
-    color: thistle;
-    padding-bottom: 30px;
-}
-  #aboutus{
-      text-align: center;
-  }
-  #services{
-      text-align: center;
-  }
-  p{
-      text-align: center;
-  }
-  .align{
-      align-content: center;
-      text-align: center;
-  }
-  #portfolio {
-    position: relative;
-    height: 650px;
-    width: 1650px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .work{
-    position: relative;
-    width: 366px;
-    height: 300px;
-    box-sizing: border-box;
-    margin: 10px;
-  }
-
-  .footer {
-    object-position: center;
-    float: none;
-    display: block;
-    margin: auto;
-  }
-  #form{
-      text-align: center;
-      align-content: center;
-      padding-bottom: 30px;
-  }
-  img{
-      align-items: center;
-  }
